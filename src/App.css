@@ -1,0 +1,66 @@
+/* Fondo llamativo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffebcc; /* Un color cálido y llamativo */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contenedor principal */
+div {
+  background-color: #fff6e6; /* Fondo suave para el contenido */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos centrados y color atractivo */
+h1, h2 {
+  text-align: center;
+  color: #d2691e; /* Un tono naranja oscuro */
+}
+
+/* Listas centradas y sin viñetas */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Elementos de lista con margen y fuente legible */
+li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Botones llamativos y centrados */
+button {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #ff7f50; /* Coral llamativo */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: #ff6347; /* Coral más intenso */
+  transition: background-color 0.3s;
+}
+
+/* Botones de añadir más separados del precio */
+.producto-lista button {
+  margin-left: 10px; /* Ajusta el valor a tu gusto */
+}
+
+/* Botones de eliminar más separados del precio en el carrito */
+.carrito-lista button {
+  margin-left: 10px; /* Ajusta el valor a tu gusto */
+}
